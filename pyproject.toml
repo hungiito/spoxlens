@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spoxlens"
+version = "0.0.1"
+description = "Spoxlens is a Python package for analyzing and visualizing analyses of badminton matches"
+authors = ["hung"]
+license = "MIT"
+readme = "README.md"
+keywords = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
